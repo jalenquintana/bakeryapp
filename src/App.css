@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+*{
+  font-family: 'Manrope', sans-serif;
+  background-color: #f8f1ae;
+  margin: 0;
+  padding: 0;
+}
+
+.entire{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, p{
+  color: #d14c7f;
+}
+
+/*styling for the header*/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2vh 2vw 2vh 2vw;
+}
+
+header img{
+  border-radius: 15%;
+  width: 150px;
+}
+
+nav ul{
+  display: flex;
+  width: 40rem;
+  justify-content: flex-end;
+  align-items:center;
+  list-style-type: none;
+}
+
+nav li{
+  margin-left: 30px;
+}
+
+nav a, nav li, .nav-link1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #d14c7f;
+  font-weight: bold;
+  font-size: large;
+}
+
+.nav-link2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8C8DC;
+  padding: 4% 9% 4% 9%;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #d14c7f;
+  font-weight: bold;
+  font-size: medium;
+}
+
+/*styling for the banner*/
+.banner{
+  display: flex;
+  width: 94vw;
+  margin-top: 8vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftcolumn{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftcolumn h1{
+  font-size: 5rem;
+  font-weight: 900;
+  color: #d14c7f;
+  margin-bottom: 2rem;
+}
+
+.leftcolumn h3{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #d14c7f;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+.leftcolumn p{
+  font-size: 1rem;
+  font-weight: 300;
+  color: #d14c7f;
+  margin-bottom: 2rem;
+}
+
+.leftcolumn button{
+  display: flex;
+  background-color: #F8C8DC;
+  padding: 3% 6% 3% 6%;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #d14c7f;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.rightcolumn{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.bannerpic{
+  width: 100%;
+  border-radius: 20px;
+}
+
+/*styling for the featured bakes*/
+.bakes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 17vh;
+  margin-bottom: 10vh;
+  border-radius: 20px;
+}
+
+.row1, .row1 h2{
+  background-color: #F8C8DC;
+}
+
+.row1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  border-radius: 20px;
+  margin-top: 10vh;
+}
+
+.row1 h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #d14c7f;
+  margin-right: 2%;
+}
+
+.row2{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 7%;
+}
+
+.special{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  border-radius: 20px;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 8%;
+  width: 300px;
+}
+
+.special, .special h3, .special p{
+  background-color: #F8C8DC;
+}
+
+.special img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.special button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f1ae;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #854442;
+  font-weight: bold;
+  font-size: small;
+  height: 2rem;
+}
+
+/*styling for the latest reviews*/
+.reviews{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border-radius: 20px;
+}
+
+.firstrow, .firstrow h2{
+  background-color: #F8C8DC;
+}
+
+.firstrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  border-radius: 20px;
+  margin-top: 10vh;
+}
+
+.firstrow h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #d14c7f;
+  margin-right: 2%;
+}
+
+.secondrow{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 7%;
+  width: 100%;
+}
+
+.testimonial{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  border-radius: 20px;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 5%;
+  width: 300px;
+}
+
+.testimonial, .testimonial h3, .testimonial p{
+  background-color: #F8C8DC;
+}
+
+.testimonial img{
+  width: 100%;
+  border-radius: 20px;
+  background-image: "./assets/zoe.jpeg";
+}
+
+/*styling for the about section*/
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10vh;
+  margin-bottom: 20%;
+  margin-left: 3%;
+}
+
+.columnfirst{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.columnsecond{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.columnsecond img{
+  width: 200px;
+  margin: 2%;
+  border-radius: 20px;
+}
+
+/*styling for the footer*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  background-color: #F8C8DC;
+  height: 22vh;
+  margin-bottom: 0px;
+}
+
+footer img{
+  width: 300px;
+}
+
+footer h3{
+  color: #d14c7f;
+  background-color: #F8C8DC;
+}
+
+footer a{
+  text-decoration: none;
+  color: #d14c7f;
+  background-color: #F8C8DC;
+}
+
+footer ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #F8C8DC;
+  list-style: none;
+}
+
+footer li{
+  color: #d14c7f;
+  background-color: #F8C8DC;
+}
+
+.social{
+  background-color: #F8C8DC;
+  width: 30px;
+}
+
+.follow{
+  display: flex;
+  flex-direction: column;
+}
+
+/*styling for the order form*/
+form{
+  justify-content: center;
+  margin-left: 40%;
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
+
+/*styling for the confirmation page*/
+.confirm{
+  margin-bottom: 70vh;
+}
